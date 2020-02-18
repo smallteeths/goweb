@@ -1,0 +1,17 @@
+
+mysql:
+  #最大空闲连接数
+  max_idle_conns: 50
+  #链接
+  source_name: root:root@tcp(192.168.1.112:3306)/uiTemplate?parseTime=true&charset=utf8&loc=Local
+addr: 127.0.0.1:9091
+logoaddr: rancherui/pandaria-ui/public/assets/images/logos/rancher-logo-cow-white.svg
+loginbgaddr: rancherui/pandaria-ui/public/assets/images/login-cityscape.svg
+footerfileaddr: static/rancherfile/footer
+themefileaddr: static/rancherfile/_variables
+loginfileaddr: static/rancherfile/loginfile
+savefileaddr: static/variable
+rancherfooteraddr: rancherui/pandaria-ui/app/components/page-footer-cn/template.hbs
+rancherloginfileaddr: rancherui/pandaria-ui/lib/login/addon/login/template.hbs
+rancherthemeaddr: rancherui/pandaria-ui/app/styles/abstracts/_variables.scss
+buildfile: rancherui/pandaria-ui/scripts/build-static
